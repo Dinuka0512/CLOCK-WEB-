@@ -1,0 +1,48 @@
+/* Reset default styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 20vw;
+    margin: 0 10px;
+  }
+  
+  .dots {
+    font-size: 10vw;
+    margin: 0 10px;
+  }
+  
+
+  p{
+    font-size: 20px;
+    margin-top: 20px;
+  }
